@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <label>Core Social Components</label>
+        <name>social</name>
+        <version>1.0.0</version>
+        <type>extension</type>
+        <namespace>/extensions/social</namespace>
+        <description>Provides everything you need to build your own social networking site such as Facebook.</description>
+        <copyright>2015 Adapt Framework</copyright>
+        <license>MIT</license>
+        <website>http://www.adaptframework.com/documentation/extensions/social</website>
+        <depends_on>
+            <bundle>boostrap_views</bundle>
+        </depends_on>
+        <settings>
+            <category name="Sessions">
+                <setting>
+                    <name>sessions.expires</name>
+                    <label>How long should a session last in minutes, 0 = forever</label>
+                    <default_value>15</default_value>
+                </setting>
+                
+            </category>
+        </settings>
+    </bundle>
+</adapt_framework>
