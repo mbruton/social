@@ -37,4 +37,9 @@ $adapt = $GLOBALS['adapt'];
 /* Register a new handler for tables with social interations */
 $adapt->add_handler("\\extensions\\social\\social");
 
+/* Update the user model and add social functions */
+\extensions\users\model_user::extend(
+
+);
+
 ?>

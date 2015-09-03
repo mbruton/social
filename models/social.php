@@ -89,6 +89,20 @@ namespace extensions\social{
             return $this->_has_seen_by();
         }
         
+        /*
+         * Methods
+         */
+        public function like(){
+            
+        }
+        
+        public function comment($comment){
+            
+        }
+        
+        public function seen(){
+            
+        }
         
     }
  

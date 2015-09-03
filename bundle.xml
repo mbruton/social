@@ -13,15 +13,5 @@
         <depends_on>
             <bundle>boostrap_views</bundle>
         </depends_on>
-        <settings>
-            <category name="Sessions">
-                <setting>
-                    <name>sessions.expires</name>
-                    <label>How long should a session last in minutes, 0 = forever</label>
-                    <default_value>15</default_value>
-                </setting>
-                
-            </category>
-        </settings>
     </bundle>
 </adapt_framework>
